@@ -11,7 +11,6 @@ face_cascade = cv2.CascadeClassifier('model/haarcascades/haarcascade_frontalface
 # CUDA
 # face_cascade = cv2.CascadeClassifier('model/haarcascades_cuda/haarcascade_frontalface_default.xml')
 
-
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
 
