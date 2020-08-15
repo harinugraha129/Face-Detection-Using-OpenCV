@@ -1,4 +1,3 @@
-
 import cv2
 
 # Load the cascade
@@ -15,8 +14,10 @@ face_cascade = cv2.CascadeClassifier('model/haarcascades/haarcascade_frontalface
 
 # To capture video from webcam. 
 cap = cv2.VideoCapture(0)
+
 # To use a video file as input 
 # cap = cv2.VideoCapture('image/vtest.avi')
+
 # RTSP source
 # cap = cv2.VideoCapture('rtsp://192.168.10.20:8080/video/h264')
 
